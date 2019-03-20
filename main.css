@@ -1,0 +1,58 @@
+#display-types span {
+  color: white;
+  background-color: #d9534f;
+}
+
+#display-types {
+  font-family: monospace;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: #5cb85c;
+}
+
+#display-types button {
+  height: 30px;
+  font-size: 18px;
+  font-family: monospace;
+  width: 150px;
+  border: 3px solid green;
+  background-color: #5cb85c;
+  border-radius: 0.5em;
+}
+
+/* MOVING BLOCKS */
+
+#blocks {
+  text-align: center;
+}
+
+#blocks div {
+  font: 30px Helvetica;
+  color: white;
+  padding: 15px;
+  border-radius: 0.5em;
+}
+
+img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.red {
+  background-color: #d9534f;
+  border: 3px solid #5cb85c;
+}
+
+.blue {
+  background-color: #428bca;
+  border: 3px solid #d9534f;
+}
+
+.green {
+  background-color: #5cb85c;
+  border: 3px solid #428bca;
+}
